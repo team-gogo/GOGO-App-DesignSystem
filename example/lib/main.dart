@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:gogo_app_design_system/gogo_app_design_system.dart';
-import 'package:gogo_app_design_system/src/component/textField/gogo_text_field.dart';
 
 void main() {
   runApp(const MyApp());
