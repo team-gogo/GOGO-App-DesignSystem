@@ -1,0 +1,33 @@
+name: gogo_app_design_system
+description: "gogo에서 사용할 design system"
+version: 1.0.0
+repository: https://github.com/team-gogo/Gogo-app-design-system.git
+
+environment:
+  sdk: ^3.6.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.17
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  assets:
+    - assets/typo/
+    - assets/drawable/
+
+  uses-material-design: true
+
+  fonts:
+    - family: sans
+      fonts:
+        - asset: assets/typo/GmarketSansBold.otf
+        - asset: assets/typo/GmarketSansLight.otf
+        - asset: assets/typo/GmarketSansMedium.otf
